@@ -1,0 +1,148 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0;padding:0;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+a{text-decoration:none;}
+img{max-width:100%;}
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../font/opensans_light_macroman/OpenSans-Light-webfont.eot');
+    src: url('../font/opensans_light_macroman/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/opensans_light_macroman/OpenSans-Light-webfont.woff') format('woff'),
+         url('../font/opensans_light_macroman/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../font/opensans_light_macroman/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../font/opensans_regular_macroman/OpenSans-Regular-webfont.eot');
+    src: url('../font/opensans_regular_macroman/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/opensans_regular_macroman/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../font/opensans_regular_macroman/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../font/opensans_regular_macroman/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	background:url(../img/background.jpg) no-repeat 100%;
+	background-size: 100%;
+	font-family: 'open_sanslight';
+	font-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.all-content
+{
+	width:70%;
+	margin:5.2% auto 4% auto;
+}
+.mark
+{
+	padding: 1em;
+	text-align: center;
+	padding: 1% 1% 5% 1%;
+}
+.mark h1{
+	display: block;
+	padding: 2em 0em;
+}
+.mark span{
+	font-size: 2em;
+	color:#fff;
+}
+.mark span img{
+	width:40px;
+	height: 40px;
+	vertical-align:bottom;
+	margin: 0px 10px;
+}
+.cr  {
+	color: #fff;
+	font-size: 0.85em;
+	line-height: 1.8em;
+	padding: 5em 0px 0px 0px;
+	font-family: 'open_sansregular';
+	text-align: center;
+}
+.cr a {
+	color:#FF7ED5;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.cr a:hover {
+	color:#fff;
+}
+@media only screen and (max-width: 768px)
+{
+.all-content {
+	width: 80%;
+}	
+.mark img {
+	width: 315px;
+}
+}
+@media only screen and (max-width: 640px)
+{
+.all-content {
+	width: 85%;
+}	
+.mark {
+	padding: 1% 1% 12% 1%;
+}
+.buttom {
+	width: 515px;
+}
+.mark img {
+	width: 300px;
+}
+}
+@media only screen and (max-width: 480px)
+{
+.all-content {
+	width: 90%;
+}	
+.mark {
+	padding: 1% 1% 12% 1%;
+}
+.buttom {
+	width: 440px;
+}
+.mark span {
+	font-size: 1.6em;
+}
+.mark img {
+	width: 270px;
+}
+}
+@media only screen and (max-width: 320px)
+{
+.all-content {
+	width: 90%;
+}	
+.mark {
+	padding: 1% 1% 12% 1%;
+}
+.mark span {
+	font-size: 1.4em;
+}
+.seach_bar p {
+	font-size: 1em;
+	margin: 1.5em 0em 2em 0em;
+}
+.mark span img {
+vertical-align: middle;
+}
+.mark img {
+	width: 200px;
+}
+.cr {
+	padding: 2em 0px 0px 0px;
+}
+}
